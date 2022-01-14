@@ -42,6 +42,12 @@
   word-spacing:1px;
   word-wrap: normal;
 }
+
+.modal-video{
+  width:550px;
+  height:350px;
+  opacity: 2;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

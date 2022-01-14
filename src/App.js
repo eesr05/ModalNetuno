@@ -3,7 +3,8 @@ import Modal from 'react-modal/lib/components/Modal';
 import Planet from './assets/netunoPlanet.png'
 import Navbar from './components/Nav/Nav'
 import SimpleSlider from './components/Carrousel/Carrousel'
-import Table from './components/Table/Table'
+import Grid from './components/Grid/Grid'
+
 import './App.css';
 
 Modal.setAppElement('#root')
@@ -33,7 +34,7 @@ const customStyles = {
   },
   overlay: {
     background: '#AEC8F3',
-    opacity: 0.8,
+    opacity: 1,
     
   }
 }
@@ -56,16 +57,19 @@ const customStyles = {
          <SimpleSlider />
           
          </div>
-         <button className='modal-button' onClick={handleOpen}>Modal</button>
+         <button className='modal-button' onClick={handleOpen}>Saiba Mais</button>
           <Modal isOpen={modalIsOpen} onRequestClose={handleClose} style={customStyles}>
             <p className="modal-text">
-              <Table />
+             <Grid />
             </p>
             <button className='modal-button' onClick={handleClose}>Close</button>
           </Modal>
+
+         
         </div>
-       
+        
       </header>
+      
     </div>
     </>
   );
