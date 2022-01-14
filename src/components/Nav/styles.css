@@ -1,0 +1,29 @@
+.nav-top{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 115px;
+    /* margin-bottom:250px; */
+    border-bottom: 1px solid;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#07173d;
+    z-index:1;
+   
+   
+  
+
+}
+.nav-p{
+    color: rgb(247, 247, 247);
+    padding-right: 50%;
+    font-family: 'Staatliches', cursive;
+    font-size: 45px;
+    position:relative;
+    margin-top: 25px;
+}
+img{
+    height:90px;
+    margin: 15px;
+}
